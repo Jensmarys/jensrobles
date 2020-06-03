@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Karla', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+}
+
+:root {
+    --rosado: #d02671;
+    --rosadoHover: #d15182;
+    --celeste: #1aa3db;
+    --celesteHover: #11a1dae5;
+    --gris: #707070;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 150px;
+    padding-left: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.seccion{
+    margin-top: 65px;
+    padding-bottom: 320px;
+}
+
+.container-fluid-index {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-fluid {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .seccion{
+        margin-top: 40px;
+        padding-bottom: 450px;
+    }
+}
+
+/*header*/
+header{
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2)
+}
+
+nav{
+    padding: 0;
+}
+
+.active-item{
+    border-bottom: 5px solid var(--celeste);
+}
+.btn-donar{
+    padding: 17px 0;
+    background: var(--rosado);
+    border-radius: 4px;
+}
+
+.btn-donar:hover{
+    background: var(--rosado);
+}
+.text-fff{
+    color: white !important;
+}
+.btn-pading{
+    padding-bottom: 14px !important;
+    padding-top: 14px !important;
+}
+
+h6 a{
+    color: #fff;
+}
+
+h6 a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.logotipo{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-primary{
+    background: var(--rosado);
+    color: #fff;
+    border-radius: 30px;
+    border-color: var(--rosado);
+    font-weight: 500;
+    padding: 10px 35px;
+}
+
+.btn-primary:hover{
+    background: var(--rosadoHover);
+    border-color: var(--rosadoHover);
+}
+
+.nav-link{
+    color: var(--celeste)!important;
+    font-weight: bolder;
+    padding-bottom: 14px;
+    padding-top: 18px;
+}
+
+.donar-small{
+    color: var(--rosado)!important;
+    font-weight: 600!important;
+}
+  
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: var(--celeste);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.text-footer p{
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 16px;
+}
+
+.icon-redes{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+.logo-mensaje{
+    position: relative;
+    margin-top: -100px;
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/*home*/
+.btn-secondary{
+    background: var(--celeste);
+    border-radius: 24px;
+    padding: 10px 35px;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.btn-secondary:hover{
+    background: var(--celesteHover);
+    border-color: var(--celesteHover);
+}
+
+.title{
+    color: var(--celeste);
+}
+
+.parrafo-rosa{
+    color: var(--rosado);
+}
+
+.p-t{
+    padding-top: 50px;
+}
+
+.miga-de-pan{
+    background-color: transparent;
+    padding: .75rem 2rem;
+    margin-bottom: 0rem;
+}
+
+.breadcrumb-item{
+    font-weight: bold;
+}
+
+.breadcrumb-item a{
+    color: var(--rosado);
+}
+
+@media only screen and (max-width: 600px) {
+    .miga-de-pan{
+    background-color: transparent;
+    padding: .75rem 2rem;
+    margin-bottom: 0rem;
+    padding-left: 15px;
+    padding-bottom: 0;
+    }
+}

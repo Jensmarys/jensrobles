@@ -1,0 +1,182 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/* Font */
+
+@font-face {
+    font-family: 'vagRounded-bt';
+    src: url('assets/font/VAGRounded_BT.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+html,
+body {
+    min-height: 100vh;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+:root {
+    --rosado: #d02671;
+    --rosadoHover: #d15182;
+    --celeste: #1aa3db;
+    --celesteHover: #11a1dae5;
+    --gris: #707070;
+}
+
+
+/* Inicio carousel btn */
+
+.carousel-main .owl-dots {
+    right: 0px;
+    transform: rotate(90deg);
+    position: absolute !important;
+    top: 35%;
+}
+
+.carousel-main .owl-dots .owl-dot span {
+    background-color: #d02671 !important;
+    width: 18px;
+    height: 18px;
+}
+
+.carousel-main .owl-dots .owl-dot.active span {
+    background-color: #11a1dae5 !important;
+}
+
+
+/* Fin carousel btn */
+
+
+/* Seccion de ayuda a fundacion stuka */
+
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 150px;
+    padding-left: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.seccion {
+    margin-top: 65px;
+}
+
+
+/* .container-fluid-index {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+} */
+
+@media only screen and (max-width: 600px) {
+    .container-fluid {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .seccion {
+        margin-top: 40px;
+    }
+}
+
+
+/*header*/
+
+.btn-donar {
+    padding: 17px 0;
+    background: var(--rosado);
+    border-radius: 4px;
+}
+
+.btn-donar:hover {
+    background: var(--rosado);
+}
+
+.text-fff {
+    color: white !important;
+}
+
+.btn-pading {
+    padding-bottom: 14px !important;
+    padding-top: 14px !important;
+}
+
+h6 a {
+    color: #fff;
+}
+
+h6 a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*home*/
+
+.btn-secondary {
+    background: var(--celeste);
+    border-radius: 24px;
+    padding: 10px 35px;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.btn-secondary:hover {
+    background: var(--celesteHover);
+    border-color: var(--celesteHover);
+}
+
+.title {
+    color: var(--celeste);
+    font-family: 'vagRounded-bt';
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.parrafo-rosa {
+    color: var(--rosado);
+}
+
+.p-t {
+    padding-top: 50px;
+}
+
+.miga-de-pan {
+    background-color: transparent;
+    padding: .75rem 2rem;
+    margin-bottom: 0rem;
+}
+
+.breadcrumb-item {
+    font-weight: bold;
+}
+
+.breadcrumb-item a {
+    color: var(--rosado);
+}
+
+@media only screen and (max-width: 600px) {
+    .miga-de-pan {
+        background-color: transparent;
+        padding: .75rem 2rem;
+        margin-bottom: 0rem;
+        padding-left: 15px;
+        padding-bottom: 0;
+    }
+}

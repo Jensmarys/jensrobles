@@ -1,0 +1,84 @@
+h1{
+    color: var(--gris);
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+h2{
+    color: var(--gris);
+    margin-bottom: 0px;
+}
+
+.hr{
+    border-top: 8px solid var(--rosado);
+    width: 100px;
+    margin-top: 8px;
+}
+
+.hr2{
+    border-top: 8px solid var(--celeste);
+    width: 100px;
+    margin-top: 8px;
+}
+
+.parrafo{
+    font-size: 17px;
+    color: var(--gris);
+}
+
+.fondo-seccion{
+    background-image: url(../img/fondo-huesos.png);
+    margin-top: 80px;
+}
+
+.contenedor-card{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.card-info{
+    padding: 16px;
+    padding-top: 55px;
+    min-height: 370px;
+    margin-top: -35px;
+}
+
+.icon-card{
+    margin-top: 30px;
+    width: 90px;
+    height: 90px;
+    position: relative;
+}
+
+h4, p{
+    color: var(--gris);
+}
+
+.responsabilidad-social{
+    padding-top: 90px;
+}
+
+.perrosomos{
+    height: 400px;
+    width: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .responsabilidad-social{
+        padding-top: 50px;    
+    }
+
+    .img-quienes-somos{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .perrosomos{
+        height: 280px;
+        width: auto;
+    }
+
+    .fondo-seccion{
+        margin-top: 0px;
+    }
+}

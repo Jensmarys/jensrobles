@@ -1,0 +1,81 @@
+h1{
+    color: var(--gris);
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.parrafo{
+    font-size: 20px;
+    color: var(--gris);
+    margin-bottom: 25px;
+}
+
+.parrafo2 {
+    font-size: 18px;
+    color: var(--gris);
+    margin-bottom: 0px;
+}
+
+h4{
+    color: var(--gris);
+}
+
+.medio-donacion{
+    color: var(--gris);
+}
+
+.donde-va{
+    color: var(--celeste);
+}
+
+h2{
+    color: var(--celeste);
+}
+
+.hr{
+    border-top: 8px solid var(--rosado);
+    width: 100px;
+    margin-top: 8px;
+}
+
+.bg-donation {
+    min-height: 270px;
+}
+
+.icon-card {
+    width: 90px;
+    height: 90px;
+    position: relative;
+}
+
+.bg-donation {
+    margin-top: -35px;
+}
+
+.bg-donation p{
+    color: var(--gris);
+}
+
+.pattern-donation {
+    background-image: url(../img/bg-donation.png);
+}
+
+.apadrina{
+    padding: 10px 80px;
+}
+
+.dog-donacion{
+    width: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+    .parrafo, .parrafo2{
+        font-size: 16px;
+        color: var(--gris);
+    }
+}
+
+a, a:hover{
+    text-decoration: none;
+    color: #fff;
+}

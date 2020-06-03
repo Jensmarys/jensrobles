@@ -1,0 +1,42 @@
+h1{
+    color: var(--gris);
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.hr{
+    border-top: 8px solid var(--celeste);
+    width: 100px;
+    margin-top: 8px;
+}
+
+.parrafo{
+    font-size: 20px;
+    color: var(--gris);
+    margin-bottom: 25px;
+}
+
+.btn-enviar{
+    background: var(--rosado);
+    color: #fff;
+    border-radius: 30px;
+    font-weight: 500;
+    padding: 10px 80px;
+}
+
+.btn-enviar:hover{
+    background: var(--rosadoHover);
+    color: #fff;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .parrafo{
+        font-size: 16px;
+        color: var(--gris);
+    }
+
+    .btn-enviar{
+        width: 100%;
+    }
+}

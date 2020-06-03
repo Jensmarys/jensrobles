@@ -1,0 +1,76 @@
+#layout{
+    display: flex;
+    margin-left: 60px;
+
+}
+
+
+
+
+.libre{
+    /*order: 2; para cambiar el orden de los elementos*/
+   align-self: flex-start;
+    background: rgb(255, 255, 255);
+    text-shadow: 10px;
+    left: 0px;
+    top: 31%;
+    position: absolute;
+    left: 55%;
+    width: 40%;
+    height: 55%;
+    opacity: 0.7;
+    
+}
+
+
+.voluntario{
+    margin-right: 10%;
+   margin-top: 10%;
+}
+
+.titulo{
+    margin-top: 5%;
+    
+    
+}
+
+.perro{
+    width: fit-content;
+    
+}
+
+.libre p{
+    color: #1aa3db;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    position: absolute;
+    padding : 10%;
+    
+
+   
+    
+}
+
+
+.btn{
+    border-radius: 10px;
+    padding: 10px 10px;
+    display: inline-block;
+    text-decoration: none;
+   position: absolute;
+   top: 70%;
+   left: 70%;
+  
+}
+
+.btn-grenn{
+    background-color: rgb(241, 105, 173);
+    color: white;
+    
+
+}
+
+.mt-5 footer{
+    width: 50px;
+}

@@ -1,0 +1,126 @@
+.show-banner-lg,
+.show-banner-md,
+.show-banner-sm {
+    display: none !important;
+}
+
+.carousel-parraf {
+    position: absolute;
+    z-index: 20;
+    left: 10%;
+    right: 15%;
+    bottom: 35px;
+}
+
+.carousel-parraf p,
+.carousel-parraf button {
+    text-transform: uppercase;
+}
+
+.carousel-parraf button:focus {
+    outline-style: none !important;
+}
+
+.carousel-parraf p {
+    color: white;
+    font-family: 'vagRounded-bt';
+    font-size: 40px;
+}
+
+.carousel-parraf button {
+    background-color: var(--celeste);
+    color: white;
+    width: 157px;
+    border-radius: 25px !important;
+    font-family: 'Roboto';
+}
+
+
+/* Inici Como ayudar */
+
+.row-2-como-ayudar .text-center {
+    padding: 0px !important;
+}
+
+.button-container img {
+    /* width: 345px; */
+    height: 477px;
+    object-fit: cover;
+}
+
+.button-container button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 33px;
+    width: 209px;
+    border: 2px solid #FFFFFF;
+    height: 52px;
+    font-family: 'vagRounded-bt';
+    font-size: 23px;
+    color: white;
+}
+
+.button-container button:hover {
+    background-color: white;
+    color: gray;
+}
+
+.button-container button:focus {
+    outline-style: none;
+}
+
+.fondo-home {
+    /* background: blue; */
+    background-image: url('../../../assets/img/fondo-huesos.png');
+}
+
+
+/* Fin Como ayudar */
+
+
+/* inicio partners */
+
+.partners {
+    margin-bottom: 100px;
+}
+
+
+/* Fin partners */
+
+
+/* .carousel-btn {
+    position: absolute;
+    z-index: 20;
+    top: 60%;
+    left: 30%;
+} */
+
+@media only screen and (min-width: 992px) {
+    .show-banner-lg {
+        display: block !important;
+    }
+    /* .carousel-main img {
+        object-fit: cover;
+        height: 600px;
+    } */
+}
+
+
+/* Medium */
+
+@media only screen and (max-width: 991px) and (min-width: 576px) {
+    .show-banner-md {
+        display: block !important;
+    }
+}
+
+
+/* Small */
+
+@media only screen and (max-width: 576px) {
+    .show-banner-sm {
+        display: block !important;
+    }
+}

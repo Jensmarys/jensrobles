@@ -1,0 +1,145 @@
+.img-logo {
+    width: 185px;
+    cursor: pointer;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.navbar-toggler-icon {
+    color: var(--celeste) !important;
+}
+
+header {
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .2)
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-brand {
+        margin-left: 5px;
+    }
+    li {
+        text-align: center !important;
+    }
+    li button {
+        width: 100% !important;
+        padding: 0 !important;
+        padding-left: 25px !important;
+        text-align: left !important;
+    }
+    li button a {
+        color: var(--celeste);
+    }
+    li button img {
+        margin-right: 10px;
+    }
+    li button:focus,
+    .navbar-toggler:focus {
+        outline-style: none !important;
+    }
+    .link-donacion li {
+        list-style-type: none;
+    }
+    .mobile-menu-icon {
+        display: inline-block;
+    }
+    .heart-icon {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    /* .header {
+    max-width: 1440px;
+    margin: 0 auto;
+} */
+    .link-donacion {
+        list-style-type: none;
+        margin-bottom: 0;
+        background-color: #DE5C8E;
+    }
+    .link-donacion li {
+        height: 102px;
+        line-height: 55px;
+    }
+    .link-donacion li button {
+        height: inherit;
+    }
+    .link-donacion li button mat-icon {
+        color: white !important;
+        margin-bottom: -15px;
+    }
+    .link-donacion li button a {
+        display: block;
+        width: 151px;
+        text-align: center;
+    }
+    .menu-centro ul:nth-child(1) {
+        display: flex !important
+    }
+    .menu-centro ul:nth-child(1) button a,
+    .link-donacion li button a {
+        color: #FFFFFF;
+        text-transform: uppercase;
+        font-size: 11px !important;
+        font-weight: bold;
+    }
+    .link-donacion li a:hover {
+        color: white;
+    }
+    .menu-centro {
+        margin-right: 20px;
+        height: 102px;
+    }
+    .menu-centro ul:nth-child(1) li {
+        margin-left: 25px;
+    }
+    .menu-centro ul:nth-child(1) button,
+    .menu-centro ul:nth-child(1) button a {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        color: white;
+    }
+    .menu-centro ul:nth-child(1) button {
+        border-radius: 24px;
+        background-color: #DE5C8E;
+    }
+    .menu-centro ul:nth-child(1) button:hover {
+        background-color: #de5cb0;
+    }
+    .menu-centro:nth-child(1) button:focus,
+    .link-donacion li button:focus {
+        outline-style: none !important;
+    }
+    .menu-centro ul:nth-child(1) button a {
+        height: 32px;
+        width: 116px;
+        display: inline-block;
+        line-height: 32px;
+    }
+    .menu-lg-dinamic {
+        margin-top: 10px;
+    }
+    .menu-lg-dinamic li {
+        margin-left: 25px;
+        height: 37px !important;
+    }
+    .menu-lg-dinamic li a {
+        color: #009CC9 !important;
+        font-size: 14px;
+        cursor: pointer;
+        display: inline-block;
+        text-transform: uppercase;
+        font-weight: 800;
+        transition: border-bottom 200ms;
+    }
+    .menu-lg-dinamic li button a:hover {
+        border-bottom: 5px solid #009CC9 !important;
+        height: 37px !important;
+    }
+    .menu-lg-dinamic li button {
+        padding-left: 3px !important;
+        padding-right: 3px !important;
+    }
+}
